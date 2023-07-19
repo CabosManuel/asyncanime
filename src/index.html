@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
+
+	<!-- https://es.javascript.info/script-async-defer -->
+	<script defer src="./assets/main.js"></script>
 </head>
 
 <body>
@@ -56,20 +59,21 @@
 	<div class="bg-white">
 		<div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
 			<h2 class="text-2xl font-extrabold tracking-tight text-gray-900">🏆 Top animes</h2>
-			<div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+			<div id="content" class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 				<!-- content -->
-				 <div class="group relative">
+				<!-- <div class="group relative flex gap-x-2">
 					<div
-						class="w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
-						<img src="" alt="" class="w-full">
+						class="w-12 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
+						<img src="https://cdn.myanimelist.net/r/50x70/images/anime/1208/94745.jpg?s=7892d01b6c74f1bf945f7a3ff3bb1f6a" alt="" class="w-full">
 					</div>
-					<div class="mt-4 flex justify-between">
-						<h3 class="text-sm text-gray-700">
-							<span aria-hidden="true" class="absolute inset-0"></span>
-							title
+					<div class="flex-col justify-between text-xs text-gray-700">
+						<h3 class="font-bold">
+							Fullmetal Alchemist: Brotherhood
 						</h3>
+						<p class="text-xs">Apr 2009 - Jul 2010 / TV (64 eps)</p>
+						<p class="text-2xl font-bold text-green-600">9.1</p>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
